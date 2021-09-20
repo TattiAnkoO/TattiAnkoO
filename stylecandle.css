@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 20 px;
+    font-weight: normal;
+}
+.menu{
+    max-width: 1800px;
+    margin: auto;
+    padding: 45px;
+
+}
+a{
+    color: rgb(0,0,0);
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.one{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.pic{
+    margin-left: 100px;
+}
+.you{
+    width:1400px;
+    height:440px;
+    background-image: url(../foto/1.jpg);
+    text-align: center;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.yout{
+    font-weight: bold;
+    font-size:70px;
+    line-height:700px;
+    padding-left: 60px;
+    color:black;
+    text-shadow: 2px 3px 5px #FF6347;
+}
+
+.text-flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+} 
+.nav-link{
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color:  #252B42;
+    text-decoration: none;
+    font-size: 25px;
+}
+.nav-link:hover{
+   color: #FF4500;
+}
+
+.nav-span{
+    margin-right: 100px ;
+}
+.fut-text{
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 40px;
+    justify-content: center;
+    max-width: 800px;
+    margin-left: 100p;
+}
+.fut{
+    margin-right: 400px;
+}
+.about{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about_title{
+    text-align: center;
+    top: 831px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    color: #000000;
+    margin: 20px 0px;
+    text-shadow: 2px 3px 5px #FF6347;
+}
+.about__text{
+    max-width: 700px;
+    font-weight:bold;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: 0.2px;
+    color: #000000;
+    margin: 0 auto;
+}
